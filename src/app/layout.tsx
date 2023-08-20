@@ -7,8 +7,9 @@ import styles from '../styles/global.module.sass'
 
 const inter = Inter({ 
   subsets: ['latin'] ,
-  variable: '--font-inter'
+  weight: ['400', '500', '600'] ,
 })
+
 
 export const metadata: Metadata = {
   title: 'cultivation diary',
