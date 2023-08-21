@@ -27,8 +27,10 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body className={styles.container}>
         <Header />
-        <Menu />
-        {children}
+        <div className={styles.bodyContainer}>
+          <Menu />
+          {children}
+        </div>
       </body>
     </html>
   )

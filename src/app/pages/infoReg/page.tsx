@@ -1,7 +1,10 @@
 import React from 'react'
+import styles from './infoRegPage.module.sass'
 
 export default function InfoRegPage() {
   return (
-    <h1>pagina info rega</h1>
+    <section className={styles.infoRegContainer}>
+      <h1>pagina info rega</h1>
+    </section>
   )
 }

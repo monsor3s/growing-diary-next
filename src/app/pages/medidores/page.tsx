@@ -1,7 +1,10 @@
 import React from 'react'
+import styles from './medidoresPage.module.sass'
 
 export default function MedidoresPage() {
   return (
-    <h1>pagina de medidores</h1>
+    <section className={styles.medidoresContainer}>
+      <h1>pagina de medidores</h1>
+    </section>
   )
 }
