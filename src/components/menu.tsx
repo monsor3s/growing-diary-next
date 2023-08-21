@@ -8,19 +8,19 @@ export default function Menu() {
     <div className={styles.container}>
       <div>
         <ArrowRight />
-        <Link href="/tabela">Tabela</Link>
+        <Link href="/pages/tabela">Tabela</Link>
       </div>
       <div>
         <ArrowRight />
-        <Link href="/infoPlant">Informações da Planta</Link>
+        <Link href="/pages/infoPlant">Informações da Planta</Link>
       </div>
       <div>
         <ArrowRight />
-        <Link href="/infoReg">Informações de Regas</Link>
+        <Link href="/pages/infoReg">Informações de Regas</Link>
       </div>
       <div>
         <ArrowRight />
-        <Link href="/medidores">Medidores</Link>
+        <Link href="/pages/medidores">Medidores</Link>
       </div>
     </div>
   )

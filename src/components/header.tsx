@@ -20,11 +20,14 @@ export default function Header() {
 
   return (
     <>
-      <header>
-        <div className={styles.logo}>
-          <LogoLeaf />
-          <span className={shadowIntoLight.className}>growing diary</span>
-        </div>
+      <header className={styles.header}>
+        <Link href="/" className={styles.linkHome}>
+          <div className={styles.logo}>
+            <LogoLeaf />
+            <span className={shadowIntoLight.className}>growing diary</span>
+          </div>
+        </Link>
+        
         {/* <h2>Bubbla Kush</h2>
         <h2>{days} dias de vida</h2>
         <span>Período atual: Vegetativo</span> */}
