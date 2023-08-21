@@ -1,25 +1,26 @@
 import React from 'react'
 import styles from '../app/styles/menu.module.sass'
 import ArrowRight from '@/objects/arrowRight'
+import Link from 'next/link'
 
 export default function Menu() {
   return (
     <div className={styles.container}>
       <div>
         <ArrowRight />
-        <a href="">Tabela</a>
+        <Link href="/tabela">Tabela</Link>
       </div>
       <div>
         <ArrowRight />
-        <a href="">Informações da Planta</a>
+        <Link href="/infoPlant">Informações da Planta</Link>
       </div>
       <div>
         <ArrowRight />
-        <a href="">Informações de Regas</a>
+        <Link href="/infoReg">Informações de Regas</Link>
       </div>
       <div>
         <ArrowRight />
-        <a href="">Medidores</a>
+        <Link href="/medidores">Medidores</Link>
       </div>
     </div>
   )

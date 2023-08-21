@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import styles from '../styles/global.module.sass'
+import Header from '@/components/header'
+import Menu from '@/components/menu'
 
 
 const inter = Inter({ 
@@ -23,6 +25,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <Header />
+      <Menu />
       <body className={styles.container}>{children}</body>
     </html>
   )

@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from '../app/styles/header.module.sass'
 import LeafImage from '../assets/leaf-3-1.png'
 import { Shadows_Into_Light } from 'next/font/google';
+import Link from 'next/link';
 
 const shadowIntoLight = Shadows_Into_Light({
   subsets: ['latin'],
