@@ -1,16 +1,52 @@
+// colors table
+$black: #000
+$blue-dark: #0070c0
+$blue: #bdd7ee
+$purple: #9900ff
+$mostard: #bf9000
+$red: #ff0000
+$brown: #573333
+$light-green: #ccff66
+$green: #31f343
+$yellow: #ffff00
+$orange: #ca470c
+$light-gray: #d9d9d9
+$gray: #808080
+$dark-pink: #d511c7
+$pink: #e866df
+$light-pink: #cc99ff
+$beige: #f8cbad
+
 .containerTabela
   width: 858px
-  height: 400px
+  height: auto
   background-color: #434348
   margin-right: auto
   margin-left: auto
 
 .containerTabela h1
+  font-size: 22px
   text-align: center
   margin: 0
   background-color: green
 
-.containerTabela tr
+.containerTabela h2
+  font-size: 22px
+  text-align: center
+  margin: 0
+  background-color: #cc99ff
+
+.containerTabela h3
+  font-size: 22px
+  text-align: center
+  margin: 0
+  background-color: #e866df
+
+.containerTabela h4
+  font-size: 22px
+  text-align: center
+  margin: 0
+  background-color: #d511c7
 
 .containerTabela th 
   border: 2px solid black
@@ -18,41 +54,135 @@
   border-radius: 3px
   font-size: 18px
 
+.containerTabela th:last-child
+  color: $black
+
 .containerTabela td
   border: 2px solid black
   padding: 5px
   text-align: center
   color: black
 
+.containerTabela td:last-child
+  background-color: $beige
+
 .containerTabela .lineOne
-  background-color: #0070c0
+  background-color: $blue-dark
 
 .containerTabela .lineTwo
-  background-color: #bdd7ee
+  background-color: $blue
 
 .containerTabela .lineThree :nth-child(1)
-  background-color: #9900ff
+  background-color: $purple
 
 .containerTabela .lineThree :nth-child(2)  
-  background-color: #bf9000
+  background-color: $mostard
 
 .containerTabela .lineThree :nth-child(3)
-  background-color: #808080
+  background-color: $light-gray
 
 .containerTabela .lineThree :nth-child(4)
-  background-color: #ccff66
+  background-color: $light-green
 
 .containerTabela .lineThree :nth-child(5)
-  background-color: #ff0000
+  background-color: $red
 
 .containerTabela .lineThree :nth-child(6)
-  background-color: #573333
+  background-color: $brown
 
 .containerTabela .lineThree :nth-child(7)
-  background-color: #ccff66
+  background-color: $light-green
 
 .containerTabela .lineFour :nth-child(1)
-  background-color: #ffff00
+  background-color: $yellow
 
 .containerTabela .lineFour :nth-child(2)
   background-color: #31f343
+
+.containerTabela .lineThreeTrans :nth-child(1)
+  background-color: #ca470c
+
+.containerTabela .lineThreeTrans :nth-child(2)  
+  background-color: $mostard
+
+.containerTabela .lineThreeTrans :nth-child(3)
+  background-color: $gray
+
+.containerTabela .lineThreeTrans :nth-child(4)
+  background-color: $light-green
+
+.containerTabela .lineThreeTrans :nth-child(5)
+  background-color: $brown
+
+.containerTabela .lineThreeTrans :nth-child(6)
+  background-color: $purple
+
+.containerTabelaPpm
+  width: 250px
+  height: auto
+
+.containerTabelaPpm th
+  width: 100%
+  border: 2px solid black
+  padding: 5px
+  border-radius: 3px
+  font-size: 14px
+  color: $black
+  background-color: $beige
+
+.containerTabelaPpm h1
+  font-size: 18px
+  color: #fff
+  text-align: center
+
+.sumarioNutri
+  display: flex
+  flex-direction: column  
+
+.sumarioNutri h1
+  font-size: 18px
+  text-align: center
+  color: #fff
+
+.sumarioNutri span
+  font-size: 14px
+  font-weight: bold
+  color: $black
+  border-radius: 3px
+  border: 2px solid $black
+
+.sumarioNutri :nth-child(2) 
+  background-color: $blue
+
+.sumarioNutri :nth-child(3)
+  background-color: $purple
+
+.sumarioNutri :nth-child(4)
+  background-color: $yellow
+
+.sumarioNutri :nth-child(5)
+  background-color: $mostard
+
+.sumarioNutri :nth-child(6)
+  background-color: $gray
+
+.sumarioNutri :nth-child(7)
+  background-color: $light-gray
+
+.sumarioNutri :nth-child(8)
+  background-color: $light-green
+
+.sumarioNutri :nth-child(9)
+  background-color: $blue-dark
+
+.sumarioNutri :nth-child(10)
+  background-color: $brown
+
+.sumarioNutri :nth-child(11)
+  background-color: $red
+
+.sumarioNutri :nth-child(12)
+  background-color: $green
+
+.sumarioNutri :nth-child(13)
+  background-color: $orange
