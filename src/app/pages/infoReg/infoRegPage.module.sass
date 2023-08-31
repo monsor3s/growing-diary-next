@@ -1,9 +1,27 @@
 .infoRegContainer
-  
+  margin-right: auto
+  margin-left: auto
 
 .wrapperTitle
+  padding: 1.5rem
+  border-radius: 16px
+  background: linear-gradient(85deg,#434343,#262626)
+  color: #fff
   display: flex
-  gap: 190px
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  transition: .2s
+  margin: 0 0 20px 0
+  box-shadow: -2rem 0 3rem -2rem #000
+
+.wrapperTitle h1
+  text-align: center
+  margin: 0 0 20px 0
+
+.wrapperTitle h1::first-letter
+  font-weight: bold
+  color: #ccff66
 
 .boxField
   display: flex
@@ -14,18 +32,66 @@
   font-weight: bold
   font-size: 18px
 
-.boxField span::first-letter
-  font-weight: bold
-  color: #ccff66
-
 .boxField p
   font-size: 18px
+  margin: 0 20px 0 0
+
+.infoContainer button
+  border-radius: 6px
+  background: var(--primary-500, #22C55E)
+  box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05)
+
+.wrapperBody
+  padding: 1.5rem
+  border-radius: 16px
+  background: linear-gradient(85deg,#434343,#262626)
+  color: #fff
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  transition: .2s
   margin: 0
+  box-shadow: -2rem 0 3rem -2rem #000
+
+.wrapperBody h1
+  margin: 0 0 20px 0
+
+.wrapperBody h1::first-letter
+  color: #ccff66
+
+.wrapperBody button
+  cursor: pointer 
+
+.wrapperBody label
+  font-weight: bold
 
 .entryValue
   display: flex
-  justify-content: space-between
+  gap: 10px
+
+.entryValue label
+  margin-right: 5px
+
+.entryValue input
+  height: 18px
+  border-radius: 6px
+  border: 1px solid #D5DAE1
+  background-color: #fff
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05)
 
 .exitValue
   display: flex
-  justify-content: space-between
+  gap: 10px
+  margin-top: 10px
+
+.exitValue label
+  margin-right: 5px
+
+.exitValue input
+  height: 18px
+  border-radius: 6px
+  border: 1px solid #D5DAE1
+  background-color: #fff
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05)
+
