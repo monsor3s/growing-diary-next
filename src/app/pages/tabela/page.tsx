@@ -102,7 +102,7 @@ export default function TabelaPage() {
             <td>2ml/L</td>
             <td>0.5ml/L(foliar)</td>
             <td>0.3g/L</td>
-            <td>~</td>
+            <td>até 14/set</td>
             <td>1</td>
           </tr>
         </tbody>
@@ -147,7 +147,7 @@ export default function TabelaPage() {
             <td>2ml/L</td>
             <td>0.5ml/L(foliar)</td>
             <td>0.3g/L</td>
-            <td>~</td>
+            <td>até 28/set</td>
             <td>2</td>
           </tr>
         </tbody>
@@ -192,7 +192,7 @@ export default function TabelaPage() {
             <td>2ml/L</td>
             <td>0.5ml/L(foliar)</td>
             <td>0.3g/L</td>
-            <td>~</td>
+            <td>até 19/out</td>
             <td>1</td>
           </tr>
         </tbody>
@@ -210,7 +210,7 @@ export default function TabelaPage() {
               <th>600~700</th>
             </tr>
             <tr>
-              <th>Até dia 09/set</th>
+              <th>Até dia 24/ago</th>
               <th>700~900</th>
             </tr>
           </thead>
